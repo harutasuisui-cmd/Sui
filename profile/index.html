@@ -62,6 +62,33 @@
     .content a:hover {
       opacity: 0.7;
     }
+
+    /* SNSボタン */
+.sns-buttons {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sns-buttons li {
+  margin-bottom: 15px;
+}
+
+.sns-buttons a {
+  display: inline-block;
+  background-color: #0d6b74; /* サイドバーと合わせた色 */
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 8px;  /* 少し角を丸く */
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.sns-buttons a:hover {
+  background-color: #09565c; /* ちょっと濃い色に */
+  transform: translateY(-2px); /* 浮き上がる感じ */
+}
+
   </style>
 </head>
 <body>
@@ -78,23 +105,35 @@
 <div class="content">
 <!-- ここからページごとの内容になる -->
     <h1>PROFILE</h1>
-
     <h2>管理者について</h2>
     <p>
-      ここに自己紹介文を書いてください。<br>
-      例：<br>
-      ・趣味／活動内容<br>
-      ・合成音声の制作歴<br>
-      ・サイトを作った目的　など
+      波瑠田 翠(はるた すい)/翠彗(すいすい)です。<br>
+      どちらでも構いません。<br>
+      <b>管理音源一覧</b><br>
+      「煌詩ルリ」「煌詩ハリ」「KEEPTIME」「つのぎゅー」<br>
+     
+      <ul class="sns-buttons">
+        <li><a href="https://x.com/Haruta_Sui" target="_blank">Twitter（X）</a></li>
+        <li><a href="https://www.instagram.com/haruta__sui/" target="_blank">Instagram</a></li>
+        <li><a href="https://soundcloud.com/haruta_sui">SoundCloud</a></li>
+        <li><a href="https://www.nicovideo.jp/user/36884929"target="_blank">niconico</a></li>
+      </ul>
+
+    </p>
+  
+    <p>
+    からもです。<br>
+    「煌詩ハリ」の声をしています。<br>
+     <h2>SNS ＆ リンク</h2>
+
+      <ul class="sns-buttons">
+      <li><a href="https://x.com/Karamo_ramo" target="_blank">Twitter（X）</a></li>
+
+      </ul>
+
     </p>
 
-    <h2>SNS ＆ リンク</h2>
-    <ul>
-      <li><a href="https://twitter.com/xxxx" target="_blank">Twitter（X）</a></li>
-      <li><a href="https://youtube.com/xxxx" target="_blank">YouTube</a></li>
-      <li><a href="https://booth.pm/xxxx" target="_blank">BOOTH</a></li>
-      <li><a href="mailto:example@example.com">メール連絡</a></li>
-    </ul>
+  
     </div> <!-- content end -->
 
 </body>
