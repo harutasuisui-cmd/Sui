@@ -1,3 +1,6 @@
+/* ▼ これを style.css の一番上に置く ▼ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
 /* ================================
    基本設定
 ================================ */
@@ -6,7 +9,7 @@ body {
   color: #502200;
   margin: 0;
   padding: 0;
-  font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-family: 'Montserrat', sans-serif; /* ← ここも追加 */
 }
 
 /* リンク全般（青系に統一） */
